@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "enviroCar_REST_API",
   "license": "AGPL 3.0",
-  "main": "dist/index.js",
+  "main": "lib/index.js",
   "scripts": {
     "test": "mocha --require @babel/register --recursive"
   },

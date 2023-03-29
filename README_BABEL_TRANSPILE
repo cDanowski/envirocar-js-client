@@ -1,0 +1,4 @@
+./node_modules/.bin/babel src --out-dir lib
+
+https://babeljs.io/docs/usage#cli-tool 
+
