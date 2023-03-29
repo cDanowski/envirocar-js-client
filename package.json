@@ -3,8 +3,7 @@
   "version": "1.0.0",
   "description": "enviroCar_REST_API",
   "license": "AGPL 3.0",
-  "type": "module",
-  "main": "src/index.js",
+  "main": "dist/index.js",
   "scripts": {
     "test": "mocha --require @babel/register --recursive"
   },
@@ -13,6 +12,7 @@
   },
   "dependencies": {
     "@babel/cli": "^7.0.0",
+    "querystring": "^0.2.1",
     "superagent": "^5.3.0"
   },
   "devDependencies": {
@@ -37,6 +37,8 @@
     "@babel/register": "^7.0.0",
     "expect.js": "^0.3.1",
     "mocha": "^8.0.1",
-    "sinon": "^7.2.0"
+    "sinon": "^7.2.0",
+    "webpack": "^5.77.0",
+    "webpack-cli": "^5.0.1"
   }
 }
